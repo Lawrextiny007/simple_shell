@@ -1,21 +1,15 @@
-#include "shell.h"
+#include <stdio.h>
 
 /**
- * add - sum of two digits
- * @num: first integer
- * @num1: second integer
+ *main - making betty happy with the main function
  *
- * Return: (0) success
+ *Return: (0) success
+ *
  */
 
-int add(int num, int num1)
+int main(void)
 {
-	int sum;
+	printf("Hi Betty... Hope this makes you happy!\n");
 
-	num = 5;
-	num1 = 7;
-	sum = num + num1;
-
-	printf("%d", sum);
 	return (0);
 }
