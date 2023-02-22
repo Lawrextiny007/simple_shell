@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "shell.h"
 /**
  *main - making betty happy with the main function
  *
